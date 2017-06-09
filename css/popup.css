@@ -1,0 +1,36 @@
+.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	/*border-right: 1px solid #ddd;*/
+}
+	
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+@media screen and (min-width: 768px) {
+        .modal-dialog {
+          width: 700px; /* New width for default modal */
+        }
+        .modal-sm {
+          width: 350px; /* New width for small modal */
+        }
+    }
+    @media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }

@@ -1,0 +1,11 @@
+#formContent {
+  padding:2%;
+}
+form {
+  padding: 5px;
+}
+
+/*Insert this style in your css*/
+.fontAwesome {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+}
