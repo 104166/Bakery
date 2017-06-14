@@ -5,6 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--Datepicker-->
+        <link rel="stylesheet"href="datepicker/css/datepicker.css">
+        <script src="datepicker/js/bootstrap-datepicker.js"></script>
         <link rel="stylesheet" href="css/popup.css">
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +45,7 @@
                     <ul class="nav-sub-menu">
                       <li><a href="#">Chocolates</a></li>
                       <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cakes<i class="fa fa-angle-down" aria-hidden="true"></i><!--<span class="caret"></span>--></a>
-                       <!-- <ul class="dropdown-menu">
+                        <!--<ul class="dropdown-menu">
                             <li><a href="#">Birthday Cakes</a></li>
                              <li><a href="#">Wedding Cakes</a></li>
                             <li><a href="#">Kids Cakes</a></li>
@@ -87,7 +90,6 @@
                     </ul>
                 </div>
                 <div class="container">
-                    
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="cakecategories">
@@ -111,10 +113,13 @@
                             <div class="col-md-3">
                                 <div class="cakedesc">
                                     <div class="cakezoom">
-                                        <div class="center"><button data-toggle="modal" data-target="#French_Vanila_Modal">
-                                        <img src="../screens/Cake_French_Vanila.png"></button></div>
+                                        <div class="center">
+                                            <button data-toggle="modal" data-target="#French_Vanila_Modal">
+                                                <img src="../screens/Cake_French_Vanila.png">
+                                            </button>
+                                        </div>
                                         <label id="caketitle">French Vanila</label>
-                                    <label id="cakeprice"><i class="fa fa-inr"></i>750/kg</label>
+                                        <label id="cakeprice"><i class="fa fa-inr"></i>750/kg</label>
                                     </div>
                                     <label id="cakerating"><img src="../screens/fivestar.jpg"/></label>
                                 </div>
@@ -122,25 +127,29 @@
                             <div class="col-md-3">
                                 <div class="cakedesc">
                                      <div class="cakezoom">
-                                         <div class="center"><button data-toggle="modal" data-target="#Butterscotch_Modal">
-                                    <img src="../screens/Cake_Butterscotch.png"></button></div>
-                                    <label id="caketitle">Butterscotch</label>
-                                    <label id="cakeprice"><i class="fa fa-inr"></i>850/kg</label>
+                                         <div class="center">
+                                             <button data-toggle="modal" data-target="#Butterscotch_Modal">
+                                                <img src="../screens/Cake_Butterscotch.png">
+                                             </button>
+                                         </div>
+                                         <label id="caketitle">Butterscotch</label>
+                                         <label id="cakeprice"><i class="fa fa-inr"></i>850/kg</label>
                                     </div>
-                                         <label id="cakerating"><img src="../screens/fivestar.jpg"/></label>
-                                    
+                                    <label id="cakerating"><img src="../screens/fivestar.jpg"/></label>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="cakedesc">
                                      <div class="cakezoom">
-                                         <div class="center"><button data-toggle="modal" data-target="#Strawberry_Modal">
-                                    <img src="../screens/Cake_Strawberry.png"></button></div>
-                                    <label id="caketitle">Strawberry</label>
-                                    <label id="cakeprice"><i class="fa fa-inr"></i>800/kg</label>
+                                         <div class="center">
+                                             <button data-toggle="modal" data-target="#Strawberry_Modal">
+                                                <img src="../screens/Cake_Strawberry.png">
+                                             </button>
                                          </div>
+                                         <label id="caketitle">Strawberry</label>
+                                         <label id="cakeprice"><i class="fa fa-inr"></i>800/kg</label>
+                                     </div>
                                     <label id="cakerating"><img src="../screens/fourstar.png"/></label>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -153,7 +162,7 @@
                                     <div class="cakedesc">
                                          <div class="cakezoom">
                                              <div class="center"><button data-toggle="modal" data-target="#Nutty_Delight_Modal">
-                                        <img src="../screens/Cake_Nutty_Delight.png"></button></div>
+                                                <img src="../screens/Cake_Nutty_Delight.png"></button></div>
                                         <label id="caketitle">Nutty Delight</label>
                                         <label id="cakeprice"><i class="fa fa-inr"></i>1000/kg</label>
                                              </div>
@@ -198,7 +207,7 @@
             </section>
 
 
-<!-- line modal -->
+<!-- Popup Modal -->
 <div class="modal fade" id="French_Vanila_Modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
   <div class="modal-dialog">
 	<div class="modal-content">
@@ -218,6 +227,7 @@
                           <label for="image"><img src="../screens/Cake_French_Vanila.png"></label>
                       </div>
                       <div class="col-md-6">
+                          <div class="">
                           <h4>FRENCH VANILA</h4>
                           <h5>WEDDING CAKE</h5>
                           <p>Wedding , celebration, aniversary theme cake with creamy butterscotch. Allow us to make the most glamorous cake moment for you.</p>
@@ -242,6 +252,7 @@
                                                 <span class="glyphicon glyphicon-calendar"></span>
                                             </span>
                                         </div>
+                                       
                                     </div>
                                 </div>
                                 <script type="text/javascript">
@@ -262,6 +273,7 @@
                           <button type="submit" class="hvr-visit-our-blog">Add to Cart</button>
                       </div>
                   </div>
+                </div>
                 </div>
             </form>
 

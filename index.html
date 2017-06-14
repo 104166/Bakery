@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet"href="css/bannertext.css">
+        <link rel="stylesheet" href="css/slick-1.6.0/slick/slick.css">
+        <link rel="stylesheet" href="css/slick-1.6.0/slick/slick-theme.css">
         <!--<link rel="stylesheet" href="css/rotating.css"/>-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,9 +27,19 @@
                 });
             });
         </script>
+        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/slick-1.6.0/slick/slick.min.js"></script>
+        <!--<script>
+            $(document).ready(function(){
+            $('.menugallery').slick({
+            setting-name: setting-value
+            });
+            });
+        </script>-->
     </head>
     <body>
+        <!--Header section-->
         <section class="header">
             <div class="container">
                 <div id="logo" class="pull-left">
@@ -40,12 +52,14 @@
                       <li><a href="#">Specialities</a></li>
                       <li><a href="#">Blog</a></li>
                       <li><a href="#">Contact</a></li>
-                        <li><a href="#"><img src="img/Cart_Icon.png"/></a></li>
-                        <li><a href="#"><img src="img/Store_icon.png">&nbsp;Gachibow..</a></li>
+                      <li><a href="#"><img src="img/Cart_Icon.png"/></a></li>
+                      <li><a href="#"><img src="img/Store_icon.png">&nbsp;Gachibow..</a></li>
                     </ul>
                 </nav><!-- #nav-menu-container -->
            </div>
         </section>
+        
+        <!--Subheader section-->
         <section class="subheader">
             <div class="container">
                 <nav id="nav-sub-menu-container">
@@ -54,7 +68,7 @@
                       <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cakes<i class="fa fa-angle-down" aria-hidden="true"></i><!--<span class="caret"></span>--></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Birthday Cakes</a></li>
-                             <li><a href="popup.html">Wedding Cakes</a></li>
+                            <li><a href="popup.html">Wedding Cakes</a></li>
                             <li><a href="#">Kids Cakes</a></li>
                             <li><a href="#">Seasonal Cakes</a></li>
                             <li><a href="#">Signature Cakes</a></li>
@@ -84,9 +98,10 @@
                       <li><a href="#">Gift Packs</a></li>
                     </ul>
                 </nav>
-                
             </div>
         </section>
+        
+        <!--Banner section-->
         <section id="banner">
             <div class="container">
                 <div class="content">
@@ -96,8 +111,8 @@
                             <li class="content__container__list__item"><span style="border-bottom: dotted; color:#fbcd5f">Food</span></li>
                             <li class="content__container__list__item"><span style="border-bottom: dotted; color:#fbcd5f">Family</span></li>
                             <li class="content__container__list__item"><span style="border-bottom: dotted; color:#fbcd5f">Friends</span></li>
-                            <li class="content__container__list__item"><span style="border-bottom: dotted; color:#fbcd5f; padding-left:30px">Fiesta</span></li>
-                           
+                            <li class="content__container__list__item"><span style="border-bottom: dotted;
+                            color:#fbcd5f">Fiesta</span></li>                      
                         </ul>
                     </div>
                 </div>
@@ -112,22 +127,21 @@
         </section>
         
         
-        
+        <!--Blog recipies section-->
         <section id="recipes">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <div class="blog">
                             <h2>Our Seceret Recipes</h2>
-                   <div class="line">   
-                            <hr>
+                            <div class="line">   
+                                <hr>
                             </div>
                              <p>Cakes goes hand in hand with celebrations. birthday<br> cakes, wedding cakes, graduation cakes. From the <br> sweet end to anniversaries, to the treat on holidays, <br>there's something that feels truly special, in <br>comparision to others desserts, about cake. It might be<br> the amount of work that goes into some of these<br> beauties or it might just be the frosting. We present <br>you more of our secret recipes coming directly from <br>the chef's kitchen.</p>
-                            
                             <button type="button" class="hvr-visit-our-blog">Visit Our Blog</button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <div class="gallery">
                             <img src="img/Section_2_Image1.jpg">
                             <img src="img/Section_2_Image2.jpg">
@@ -139,71 +153,102 @@
             </div>
         </section>
         
-        
+        <!--Gallery section-->
         <section class="menugallery">
-            <div id="menu" class="container">
-            <!--<div id="myCarousel" class="carousel slide" data-ride="carousel">-->
-         <!--  Wrapper for slides--> 
-          <!--<div class="carousel-inner" height="400px" width="400px" align="center">
-            <div class="item active">
-              <img src="img/Section_3_Cupcake.jpg" alt="CUPCAKES" height="400px" width="400px">
-            </div>
-
-            <div class="item">
-              <img src="img/Section_3_Bread.jpg" alt="BREADS" height="400px" width="400px">
-            </div>
-
-            <div class="item">
-              <img  src="img/Section_3_Biscuits.jpg"alt="BISCUITS" height="400px" width="400px">
-            </div>
-             
-          </div>
-
-        </div>-->
-                <div class="flip"> 
-                    <div class="itemname">Biscuits
-                    <div class="front"> 
-                        <img src="img/Section_3_Biscuits.jpg" alt="" />
-                    </div> 
-                        </div>
-                    <div class="back">
-                        <h5>sunfest</h5>
-                         <h5>britania</h5>
-                         <h5>marrygold</h5>
-                    </div> 
-                </div>
-        </div>
-        
-        </section>
-        <section class="booknow">
-            <div class="container">
-                <div class="aligncenter">
-                    <div class="booknowcontentwrap">
-                        <div class="booknowcontent">
-                            <h2>Customer Gift Packs</h2>
-                            <p>Choose from a range of delightfull combinations of gift pack or <br>place a customized order as per your specification for that <br>someone special to be delivered by us. Pre book your gift and <br>we will ensure that it is delivered it to the party on the specified <br>date and time</p>
-                            <div class="booknowbtn">
-                            <button type="button" class="hvr-visit-our-blog">Book Now</button>
+            <div id="menu" class="container"> 
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="flip"> 
+                            <div class="itemname">Cakes
+                                <div class="front"> 
+                                    <img src="img/Section_3_Biscuits.jpg" alt="" />
+                                </div> 
                             </div>
+                            <div class="back">
+                                <a href="popup.html">
+                                    <h5>Birthday Cakes</h5>
+                                    <h5>Wedding Cakes</h5>
+                                    <h5>Kids Cakes</h5>
+                                    <h5>Seasonal Cakes</h5>
+                                    <h5>Signature Cakes</h5>
+                                    <h5>Newly Arrived Cakes</h5>
+                                </a>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-sm-4">
+                        <div class="flip"> 
+                            <div class="itemname">Cupcakes
+                                <div class="front"> 
+                                    <img src="img/Section_3_Cupcake.jpg" alt="" />
+                                </div> 
+                            </div>
+                            <div class="back">
+                                <a href="popup.html">
+                                    <h5>Vanilla Cupcakes</h5>
+                                    <h5>Butterscotch Cupcakes</h5>
+                                    <h5>Pineapple Cupcakes</h5>
+                                    <h5>Strawberry Cupcakes</h5>
+                                </a>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="flip"> 
+                            <div class="itemname">Breads
+                                <div class="front">
+                                    <img src="img/Section_3_Bread.jpg" alt="" />
+                                </div> 
+                            </div>
+                            <div class="back">
+                                <a href="popup.html">
+                                    <h5>Wheat Breads</h5>
+                                    <h5>Brown Breads</h5>
+                                    <h5>White Breads</h5>
+                                </a>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <!--Order online section-->
+        <section class="booknow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="aligncenter">
+                            <div class="booknowcontentwrap">
+                                <div class="booknowcontent">
+                                    <h2>Customer Gift Packs</h2>
+                                    <p>Choose from a range of delightfull combinations of gift pack or <br>place a customized order as per your specification for that <br>someone special to be delivered by us. Pre book your gift and <br>we will ensure that it is delivered it to the party on the specified <br>date and time</p>
+                                    <div class="booknowbtn">
+                                    <button type="button" class="hvr-visit-our-blog">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        
+        <!--Customer review section-->
         <section class="testinomials">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12" align="center"><h2>Testimonials</h2><hr></div>
-                    <div class="col-md-12">
-                        <div class="col-md-4">
+                    <div class="col-sm-12" align="center"><h2>Testimonials</h2><hr></div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-4">
                             <div class="customerprofile">
-                                  <div class="pic"><img src="img/Section_Testimonials_pic_1.png" alt=""></div>
+                                <div class="pic"><img src="img/Section_Testimonials_pic_1.png" alt=""></div>
                                 <h4>Ravi Kiran</h4>
                                 <h5>KARKHANA HYDERABAD</h5>
                                 <p>"Thankyou so much for the beautiful<br> wedding cake We were pleasantly <br>surprised. I couldn't have Imagined a <br>more perfect cake and everyone<br> laoved it"</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                             <div class="customerprofile">
                             <div class="pic"><img src="img/Section_Testimonials_pic_2.png" alt=""></div>
                             <h4>Pankaj Kumar</h4>
@@ -211,7 +256,7 @@
                             <p>"Words cannot express how grateful<br>  we are to you. the cake you make our<br>  sons first birthday was amazing Thank<br>  you for making his special day that<br>  much more special."</p>
                         </div>
                             </div>
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                              <div class="customerprofile">
                             <div class="pic"><img src="img/Section_Testimonials_pic_3.png" alt=""></div>
                             <h4>Anita Mishra</h4>
@@ -223,26 +268,29 @@
                 </div>
             </div>  
         </section>
+        
+        <!--Subscribe to Newsletters section-->
         <section class="updates">
             <div class="container">
                 <div class="subscribecontent">
                     <h3>Subscribe To Our Newsletters</h3>
                     <p>Love food? Subscribe to our newsletters to read about us and get some exiting deals</p>
                     <div class="subscribebutton">
-                        <!--<span class="fa fa-envelope"></span>-->
-                        <!--<input type="text" name=subscribe class="subscribe"  placeholder="name@gmail.com"/>-->
                         <input type="text" class="fontAwesome" name="emailAddress" placeholder="&#xf003;  name@gmail.com" value=""/>
                         <button type="button" class="hvr-sweep-to-right">Subscribe</button>
                     </div>
                 </div>
             </div>
         </section>
+        
+        
+        <!--Footer section-->
         <section class="footer">
             <div class="container">
                 <div class="row">
                     <div id="footercontent">
                     <div class="col-lg-12">
-                        <div class="col-md-5">
+                        <div class="col-sm-5">
                             <div class="footersec1">
                                 <div id="logo">
                                     <a href="#bakery"><img src="img/Logo_Top.png" alt="" title="" /></a>
@@ -259,7 +307,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-2">
                             <div class="footersec2">
                                 <h4>CATEGORIES</h4>
                                 <ul>
@@ -272,7 +320,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-2">
                             <div class="footersec3">
                                 <h4>COMMUNITY</h4>
                                  <ul>
@@ -285,7 +333,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="footersec4">
                                 <h4>FOLLOW US</h4>
                                 <div class="social">
@@ -294,7 +342,9 @@
                                     <li class="social-googleplus"></li>  
                                     <li class="social-other"></li> 
                                 </div>
-                                <button type="button" class="hvr-visit-our-blog">Get Started</button>
+                                <div class="footerbtn">
+                                    <button type="button" class="hvr-visit-our-blog">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </div>

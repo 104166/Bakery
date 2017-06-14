@@ -1,3 +1,10 @@
+.dropdown-menu{
+    overflow: hidden;
+}
+.dropdown-menu:hover{
+    overflow: hidden;
+}
+
 .center {
     margin-top:50px;   
 }
